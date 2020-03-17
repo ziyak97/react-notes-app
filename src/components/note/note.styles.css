@@ -1,0 +1,28 @@
+.note {
+    margin: 3rem;
+    border-radius: .5rem;
+    width: 20rem;
+    background-color: white;
+    padding: 1rem;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+    word-wrap: break-word;
+    font-size: 1.2rem;
+    max-height: 20rem;
+    overflow: auto;
+}
+
+.note__delete {
+    cursor: pointer;
+    color: red;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.note__delete:hover {
+    transform: scale(1.05);
+}
+
+.note__container {
+    display: flex;
+    justify-content: space-around;
+}

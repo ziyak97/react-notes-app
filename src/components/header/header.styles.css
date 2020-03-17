@@ -1,0 +1,10 @@
+.header {
+    height: 9rem;
+    background-color: #F3B507;
+    padding-left: 1rem;
+}
+
+.header__heading {
+    float: left;
+    font-size: 3rem;
+}
