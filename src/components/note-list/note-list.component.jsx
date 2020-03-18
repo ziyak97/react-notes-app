@@ -10,12 +10,11 @@ const NoteList = ({ notes, setNotes, deleteNote }) => (
     className='note-list'
     animation='150'
     list={notes} setList={setNotes}
+    handle='.note__image--note'
   >
-    {/* <div className='note-list'> */}
     {notes.map(({ title, content }, id) => (
       <Note key={id} id={id} title={title} content={content} deleteNote={deleteNote} />
     ))}
-    {/* </div> */}
   </ReactSortable>
 )
 

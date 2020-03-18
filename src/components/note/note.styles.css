@@ -10,6 +10,7 @@
     max-height: 20rem;
     overflow: auto;
     white-space: pre-wrap;
+    position: relative;
 }
 
 .note__delete {
@@ -26,4 +27,17 @@
 .note__container {
     display: flex;
     justify-content: space-around;
+}
+
+.note__image--note {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: move;
+    opacity: 0;
+    transition: all .2s;
+}
+
+.note__image--note:hover {
+    opacity: 1;
 }
