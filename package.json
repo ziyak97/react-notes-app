@@ -11,7 +11,7 @@
     "react-confirm-alert": "^2.6.1",
     "react-dom": "^16.13.0",
     "react-script-tag": "^1.1.2",
-    "react-scripts": "3.4.0",
+    "react-scripts": "5.0.1",
     "react-sortablejs": "^2.0.11",
     "sortablejs": "^1.10.2"
   },
